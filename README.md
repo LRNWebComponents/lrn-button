@@ -9,7 +9,7 @@
 ```
 -->
 ```html
-<lrn-button></lrn-button>
+ <lrn-button label="Stuff" href="https://google.com/" color="light-blue" icon-class="pink-text" hover-class="green-text blue darken-4" icon="check"></lrn-button>
 ```
 
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/LRNWebComponents/lrn-button)
