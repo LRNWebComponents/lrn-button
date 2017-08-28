@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>lrn-button demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../lrn-button.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic lrn-button demo</h3>
+      <demo-snippet>
+        <template>
+          <lrn-button label="Stuff" href="https://google.com/" color="light-blue" icon-class="pink-text" hover-class="green-text blue darken-4" icon="check"></lrn-button>
+        </template>
+      </demo-snippet>
+    </div>
+    <div class="vertical-section-container centered">
+      <h3>Basic lrn-button demo center</h3>
+      <demo-snippet>
+        <template>
+          <lrn-button label="Stuff" href="https://google.com/" color="light-blue" icon-class="pink-text" hover-class="green-text blue darken-4" icon="check" class="center"></lrn-button>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
